@@ -14,13 +14,13 @@
     <main data-testid="main-content">
       <section data-testid="personal-info-section">
         <h2 data-testid="personal-info-title">Personal Information</h2>
-        <div class="display-section">
+        <div data-testid="info-details" class="display-section">
           <img
             data-testid="slackProfilePicture"
             src="img/profile.jpg"
             alt="Slack Profile Picture"
           />
-          <div class="alignment">
+          <div data-testid="slackDetails" class="alignment">
             <p data-testid="slackDisplayName">
               <strong>Slack Name:</strong>
               <span id="slackName">Oluwaseyi Isaiah Lawal</span>
@@ -56,18 +56,18 @@
         </section>
         <section data-testid="links-section" class="small-section">
           <h2 data-testid="links-title">Useful Links</h2>
-          <ul>
-            <li>
+          <ul data-testid="link-list">
+            <li data-testid="link-1">
               <a href="https://hng.tech/learn" data-testid="hngLink"
                 >HNG Learn</a
               >
             </li>
-            <li>
+            <li data-testid="link-2">
               <a href="https://keyword.dog" data-testid="keywordLink"
                 >Keyword Dog</a
               >
             </li>
-            <li>
+            <li data-testid="link-3">
               <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink"
                 >Scrape Any Web</a
               >
@@ -77,7 +77,7 @@
       </div>
     </main>
     <footer data-testid="footer">
-      <p>&copy; 2024 My Tech Journey</p>
+      <p data-testid="footer-text">&copy; 2024 My Tech Journey</p>
     </footer>
     <script src="scripts.js"></script>
   </body>
