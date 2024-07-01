@@ -1,0 +1,129 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header styling */
+header {
+  background-color: #004b8d;
+  color: white;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+}
+
+/* Main content styling */
+main {
+  margin: 20px 0;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.display-section {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.display-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.alignment {
+  text-align: left;
+  font-size: 24px;
+  align-content: center;
+  margin-left: 20px;
+}
+
+.small-section {
+  width: 50%;
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 32px;
+  color: #004b8d;
+}
+
+ul {
+  text-align: left;
+  display: inline-block;
+  padding-left: 30px;
+  font-size: 18px;
+}
+
+li {
+  padding: 5px 0;
+}
+
+/* Footer styling */
+footer {
+  margin-top: 20px;
+  padding: 10px 0;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  main {
+    font-size: 17px;
+  }
+
+  header,
+  footer {
+    padding: 10px 0;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  section {
+    padding: 10px;
+  }
+  
+  .display-section {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .alignment {
+    font-size: 17px;
+    margin-left: 0;
+  }
+
+  .small-section {
+    width: auto;
+    padding: 10px;
+  }
+}

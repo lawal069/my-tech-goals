@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Tech Goals</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header data-testid="header">
+      <h1 data-testid="title">My Tech Goals for the Next 2 Years</h1>
+    </header>
+
+    <main data-testid="main-content">
+      <section data-testid="personal-info-section">
+        <h2 data-testid="personal-info-title">Personal Information</h2>
+        <div class="display-section">
+          <img
+            data-testid="slackProfilePicture"
+            src="img/profile.jpg"
+            alt="Slack Profile Picture"
+          />
+          <div class="alignment">
+            <p data-testid="slackDisplayName">
+              <strong>Slack Name:</strong>
+              <span id="slackName">Oluwaseyi Isaiah Lawal</span>
+            </p>
+            <p data-testid="slackEmail">
+              <strong>Slack Email:</strong>
+              <span id="slackEmail">lawaloluwaseyi069@gmail.com</span>
+            </p>
+            <p data-testid="currentTimeUTC">
+              <strong>Current Time in UTC:</strong> <span id="utcTime"></span>
+            </p>
+            <p data-testid="currentDay">
+              <strong>Current Day:</strong> <span id="currentDay"></span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div data-testid="goal-link-section" class="display-section">
+        <section data-testid="goal-section" class="small-section">
+          <h2 data-testid="goal-title">My Goals</h2>
+          <ul data-testid="goal-list">
+            <li data-testid="goal-item-1">Achieve Certificates</li>
+            <li data-testid="goal-item-2">Become proficient in ReactJS</li>
+            <li data-testid="goal-item-3">
+              Contribute to open source projects
+            </li>
+            <li data-testid="goal-item-4">
+              Build and deploy a full-stack application
+            </li>
+            <li data-testid="goal-item-5">Build a professional network</li>
+          </ul>
+        </section>
+        <section data-testid="links-section" class="small-section">
+          <h2 data-testid="links-title">Useful Links</h2>
+          <ul>
+            <li>
+              <a href="https://hng.tech/learn" data-testid="hngLink"
+                >HNG Learn</a
+              >
+            </li>
+            <li>
+              <a href="https://keyword.dog" data-testid="keywordLink"
+                >Keyword Dog</a
+              >
+            </li>
+            <li>
+              <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink"
+                >Scrape Any Web</a
+              >
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer data-testid="footer">
+      <p>&copy; 2024 My Tech Journey</p>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
